@@ -2,7 +2,6 @@
   "name": "mobion-short",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
   "dependencies": {
     "@mui/icons-material": "^5.14.9",
     "@testing-library/jest-dom": "^5.17.0",

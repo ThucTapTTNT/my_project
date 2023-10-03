@@ -8,7 +8,7 @@ import s4 from "../../assets/images/sidebar/s4.png"
 const Sidebar = () => {
     return(
         <div className="sidebar">
-            <a href="/dcb">
+            <a href="/">
                 <div className="sv pick">
                     <img className="s1" alt="" src={s1} />
                     <div className="sidebar-text">Dành cho bạn</div>

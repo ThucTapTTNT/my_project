@@ -13,7 +13,7 @@ const App = () => {
         <Header/>
         <Sidebar/>
         <Routes>
-          <Route exact path = "/dcb" element={<Dcb />}/>
+          <Route exact path = "/" element={<Dcb />}/>
           <Route exact path = "/dtd" element={<Dtd />}/>
           <Route exact path = "/yt" element={<Yt />}/>
         </Routes>
