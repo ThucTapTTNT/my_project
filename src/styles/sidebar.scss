@@ -247,7 +247,26 @@
 }
 
 
-.sv.active {
+.sv.active
+{
+    border-radius: 12px;
+    background: #1A1D2A;
+}
+
+.sv:hover
+{
+    border-radius: 12px;
+    background: #1A1D2A;
+}
+
+.sv-more.active
+{
+    border-radius: 12px;
+    background: #1A1D2A;
+}
+
+.sv-more:hover
+{
     border-radius: 12px;
     background: #1A1D2A;
 }

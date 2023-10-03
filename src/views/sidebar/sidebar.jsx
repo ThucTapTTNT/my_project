@@ -6,8 +6,7 @@ import s2 from "../../assets/images/sidebar/s2.png"
 import s3 from "../../assets/images/sidebar/s3.png"
 import s4 from "../../assets/images/sidebar/s4.png"
 
-class Sidebar extends Component
-{
+class Sidebar extends Component {
     constructor(props) {
         super(props);
         this.state = {
