@@ -35,7 +35,7 @@ class SidebarMore extends Component {
     handleItemClick = (index) => {
         this.setState({ activeIndex: index });
     };
-  
+
     render() {
         const { activeIndex } = this.state;
         const items = [

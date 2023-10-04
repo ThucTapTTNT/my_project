@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import SidebarMore from "../sidebar/sidebar_more";
 import Notify from "./notify";
+import SearchBar from "./search";
 import "../../styles/header.scss";
 import cloud from "../../assets/images/header/cloud.png"
 import line from "../../assets/images/header/line.png"
@@ -18,6 +19,7 @@ import notify from "../../assets/images/header/notify.png"
 const Header = () => {
     const [showSidebar, setShowSidebar] = useState(false);
     const [showNotify, setShowNotify] = useState(false);
+    const [showSearch, setShowSearch] = useState(false);
 
     const handleClickSidebar = () => {
         setShowSidebar(!showSidebar);
@@ -25,6 +27,10 @@ const Header = () => {
 
     const handleClickNotify = () => {
         setShowNotify(!showNotify);
+    };
+
+    const handleClickSearch = () => {
+        setShowSearch(!showSearch);
     };
 
     
@@ -69,7 +75,7 @@ const Header = () => {
                 </div>
                 <div className="frame-wrapper">
                     <div className="frame-2">
-                        <div className="text-wrapper-3">Tìm kiếm</div>
+                        <input className="text-wrapper-3" type="text" placeholder="Tìm kiếm" onClick={handleClickSearch}/>
                         <div className="frame-3">
                             <img className="line-tk" alt="" src={line} />
                             <div className="component-2">
@@ -79,6 +85,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            {showSearch && <SearchBar />}
             {showNotify && <Notify />}
         </div>
     )
