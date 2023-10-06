@@ -156,7 +156,9 @@ class SidebarMore extends Component {
                     <p>Khám phá</p>
                     <div className="k-group">
                         <div className="k1">
-                            <div className="kp"># suthatla</div>
+                            <a href="/hashtag1">
+                                <div className="kp"># suthatla</div>
+                            </a>
                         </div>
                         <div className="k1">
                             <div className="kp"># mackedoi</div>
