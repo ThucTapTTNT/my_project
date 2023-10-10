@@ -83,7 +83,9 @@ class SidebarMore extends Component {
                     <p>Kênh đề xuất</p>
                     <div className="k-group">
                         <div className="k1">
-                            <img className="k-img" alt="" src={k_1} />
+                            <a href="kenh">
+                                <img className="k-img" alt="" src={k_1} />
+                            </a>
                             <div className="k-d">
                                 finDmusic
                                 <p className="k-d-follow">24K theo dõi</p>

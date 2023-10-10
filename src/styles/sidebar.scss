@@ -107,16 +107,6 @@
     flex-direction: row;
 }
 
-.s1
-{
-    display: flex;
-    width: 32px!important;
-    height: 32px!important;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-
 .sidebar-more-text
 {
     display: flex;
@@ -168,6 +158,12 @@
     width: 210px;
     padding: 4px 12px;
     gap: 12px;
+}
+
+.k-group .k1 a
+{
+    
+    display: flex;
 }
 
 .k-img

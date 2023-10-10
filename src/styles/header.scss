@@ -25,6 +25,12 @@
     width: 40px !important;
 }
 
+.header .component:hover
+{
+    cursor: pointer;
+}
+
+
 .header .header-right
 {
     align-items: center;
@@ -76,6 +82,11 @@
     height: 32px !important;
     position: relative !important;
     width: 32px !important;
+}
+
+.header .component-2:hover
+{
+    cursor: pointer;
 }
 
 .component-2 .icon
