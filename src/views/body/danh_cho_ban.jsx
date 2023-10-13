@@ -15,8 +15,6 @@ import s_what from "../../assets/images/body/s_what.png"
 import s_tele from "../../assets/images/body/s_tele.png"
 import s_twit from "../../assets/images/body/s_twit.png"
 import s_email from "../../assets/images/body/s_email.png"
-
-
 import Arrow from "./arrow";
 
 const Dcb = () => {
@@ -82,7 +80,7 @@ const Dcb = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 {isPopupOpen && (
                     <div className="share-popup">
                         <div className="popup-content">
